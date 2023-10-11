@@ -3,7 +3,6 @@ Feature: FeedBack Page functionality
   Background: User is on Home page
     Given the user is on Home page
 
-@ignore
   Scenario Outline: ErrorMessage validation in FeedBack Page
     And verify home page title is displayed <title>
     Then click Contact link
@@ -19,7 +18,7 @@ Feature: FeedBack Page functionality
       | title        | name  | email                | message |
       | Jupiter Toys | Diana | testing123@gmail.com | Thanks  |
 
-@ignore
+
   Scenario Outline: Success message validation on submitting feedback form
     Then click Contact link
     When user enters mandatory feedback information <name> <email> <message>
