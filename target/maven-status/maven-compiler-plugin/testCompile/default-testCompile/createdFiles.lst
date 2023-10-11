@@ -1,0 +1,7 @@
+pages\ContactPage.class
+StepDefinitions\StepDefinition.class
+pages\CartPage.class
+pages\HomePage.class
+pages\ShopPage.class
+runner\TestRunner.class
+utilities\BaseClass.class
