@@ -1,12 +1,9 @@
 package pages;
-
 import java.text.DecimalFormat;
 import java.util.List;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
 import utilities.BaseClass;
 
 public class ShopPage extends BaseClass{

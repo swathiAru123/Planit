@@ -1,13 +1,8 @@
 package pages;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-
-import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
 import utilities.BaseClass;
 
 public class ContactPage extends BaseClass{
@@ -51,7 +46,6 @@ public class ContactPage extends BaseClass{
 	{	
 		List<String> actualErrorMessages = getErrorMessages(errorElements);
 		return actualErrorMessages;
-
 	}
 	
 	public String verifyFeedbackSuccessMsgIsDisplayed()

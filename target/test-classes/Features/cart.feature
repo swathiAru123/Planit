@@ -3,7 +3,7 @@ Feature: Cart Page functionality
   Background: User is on Home page
     Given the user is on Home page
 
-  @cart
+  @Planit
   Scenario Outline: Verify the cart
     And user clicks Shop link
     Then user is on shop page
